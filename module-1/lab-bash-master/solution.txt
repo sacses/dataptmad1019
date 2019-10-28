@@ -14,3 +14,7 @@ $ w
 $ pwd
 $ ls *.txt
 $ wc -l sed.txt
+$ find . -type f -name 'lorem*' | wc -l
+$ grep -io et lorem/at.txt | wc -l
+$ grep -o et lorem/at.txt | wc -l
+$ grep -ro et . | wc -l
