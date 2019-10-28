@@ -1,0 +1,5 @@
+fran@fran-HP-EliteBook-820-G2:~/IronhackMad/dataptmad1019/module-1/lab-bash-master$ find . -type f -name '*.py' -exec wc -l {} + | sort -rn
+ 30 total
+ 12 ./bonus-pedro/hola.py/hola-line.py
+  9 ./bonus-pedro/hola.py/moi.py/moi-line.py
+  9 ./bonus-pedro/bye.py/bye-line.py
