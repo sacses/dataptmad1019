@@ -7,3 +7,5 @@ $ cat sed.txt
 $ cat at.txt lorem.txt
 $ head -n3 sed.txt
 $ tail -n3 sed.txt
+$ echo "Homo homini lupus." >> sed.txt
+$ tail -n3 sed.txt
