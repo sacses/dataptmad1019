@@ -9,3 +9,8 @@ $ head -n3 sed.txt
 $ tail -n3 sed.txt
 $ echo "Homo homini lupus." >> sed.txt
 $ tail -n3 sed.txt
+$ sed -i 's/et/ET/g' at.txt
+$ w
+$ pwd
+$ ls *.txt
+$ wc -l sed.txt
