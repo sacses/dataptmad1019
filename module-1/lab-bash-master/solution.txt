@@ -1,0 +1,9 @@
+$ echo Hello World
+$ mkdir new_dir
+$ rm -r new_dir
+$ cp sed.txt ../lorem-copy/
+$ cp at.txt lorem.txt ../lorem-copy/
+$ cat sed.txt
+$ cat at.txt lorem.txt
+$ head -n3 sed.txt
+$ tail -n3 sed.txt
