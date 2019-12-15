@@ -15,6 +15,16 @@ a = input('Please choose your first number (zero to five): ')
 b = input('What do you want to do? plus or minus: ')
 c = input('Please choose your second number (zero to five): ')
 
+base = ['zero', 'one', 'two', 'three', 'four', 'five']
+sign = ['plus', 'minus']
+real_numbers = [1, 2, 3, 4, 5]
+
+dict_numbers = {i: j for (i, j) in base,real_numbers}
+
+def simple_calc(x,y,z):
+
+
+
 if a == 'zero' and b == 'plus'  and c == 'zero':
     print("zero plus zero equals zero")
 if a == 'zero' and b == 'plus'  and c == 'one':
